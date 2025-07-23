@@ -26,7 +26,6 @@ li {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 30px;
   height: 100vh;
@@ -65,7 +64,8 @@ h1.logo {
 
 h1.logo img {
   width: 140px;
-  margin: 0 auto;
+  line-height: 80px;
+  margin: 24px auto 0 auto;
 }
 
 .container {
