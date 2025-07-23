@@ -49,12 +49,12 @@ body::before {
 body::after {
   content: '';
   display: block;
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: linear-gradient(-45deg, #f3a0a0, #f85252);
   position: absolute;
-  right: 50px;
+  right: 130px;
   bottom: 30px;
 }
 
