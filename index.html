@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glass Login</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #b1d6f4, #ffffff);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 800px;
+      height: 500px;
+      display: flex;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+
+    .left-panel {
+      flex: 1;
+      background: #d98aff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left-panel img {
+      width: 80%;
+      max-width: 300px;
+    }
+
+    .right-panel {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .right-panel h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .right-panel p {
+      font-size: 14px;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .input-group {
+      margin-bottom: 20px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.7);
+      box-shadow: 0 0 10px rgba(81, 129, 255, 0.4);
+    }
+
+    .right-panel .links {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+
+    .right-panel button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background-color: #ff4d4d;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+    }
+
+    .social-login {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-login img {
+      width: 28px;
+      cursor: pointer;
+    }
+
+    .register-link {
+      font-size: 12px;
+      text-align: right;
+      margin-top: -20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <img src="your-image.png" alt="Illustration" />
+    </div>
+    <div class="right-panel">
+      <div class="register-link">Not a member? <a href="#">Register now</a></div>
+      <h2>Hello Again!</h2>
+      <p>Welcome back you've been missed!</p>
+
+      <div class="input-group">
+        <input type="text" placeholder="Enter username">
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password">
+      </div>
+      <div class="links">
+        <span></span>
+        <a href="#">Recovery Password</a>
+      </div>
+      <button>Sign In</button>
+
+      <p style="text-align:center; margin-bottom: 10px;">Or continue with</p>
+      <div class="social-login">
+        <img src="google-icon.png" alt="Google">
+        <img src="apple-icon.png" alt="Apple">
+        <img src="facebook-icon.png" alt="Facebook">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
