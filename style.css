@@ -168,7 +168,6 @@ h1.logo img {
   background-color: #003377;
 }
 
-
 .login span.sublogo {
   display: block;
   font-size: 15px;
@@ -214,15 +213,6 @@ h1.logo img {
   text-indent: 25px;
 }
 
-.otpNum::-webkit-input-placeholder {
-  background: url(./img/otp.png) 4px 2px no-repeat;
-  background-size: 24px;
-  text-indent: 25px;
-}
-
-.otpNum.on {
-  display: none;
-}
 
 .login .loginInput select {
   width: 100%;
@@ -335,7 +325,6 @@ h1.logo img {
     margin-bottom: 5px;
   }
 
-  .login .otpReg,
   .login .saveId {
     margin-top: 5px;
     margin-left: 10px;
